@@ -4,7 +4,7 @@ let app = express()
 
 app.get('/Get',(req,res)=>{
     console.log()
-    return res.status(200).json({message:`ping at barnbas ${new Date()}`})
+    return res.status(200).json({message:`ping at barnbasssssssssssssssssssss ${new Date()}`})
 })
 
 app.listen(3500,()=>{
